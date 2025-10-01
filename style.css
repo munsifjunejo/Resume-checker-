@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    background-color: #121212;
+} */
+/* nav bar started */
+
+#navbar{
+    height: 100px;
+    width: auto;
+    background-color: white;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    list-style: none;
+    width: 100%;
+    /* justify-content: space-between; */
+    gap: 16px;
+    text-align: center;
+    margin-top: 20px;
+}
+#resume{
+    font-size: 24px;
+    margin-left: 16px;
+    font-weight: 900;
+}
+#isresume{
+    font-size: 54px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    line-height: 80px;
+}
+#para{
+    margin-left: 16px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+#input{
+    height: 170px;
+    width: 500px;
+     margin-top: 20px;
+    margin-left: 16px;
+    background-color: rgb(59 130 246 / .5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     border: 2px dotted #6851ff;   /* dotted border */
+    border-radius: 10px;  
+    
+}
+.input-ul{
+    text-align: center;
+    margin-top: 20px;
+    list-style: none;
+
+}
+.custom-file {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #6851ff;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.custom-file:hover {
+    background: #4a34cc;
+}
+
+.wrapper {
+    display: flex;               /* side by side */
+    gap: 20px;                   /* dono ke beech space */
+    align-items: center;         /* vertically center */
+    margin: 20px;
+    
+}
+
+#input {
+    height: 170px;
+    width: 500px;
+    background-color: rgb(59 130 246 / .5);
+    border: 2px dotted #6851ff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     height: 250px;   /* zyada height */
+    width: 650px;
+}
+
+#chart img {
+    width: 600px;       /* jitna chhota ya bara chahiye set karo */
+    height: auto;       /* ratio maintain */
+    border-radius: 10px;
+    padding: 20px;
+  
+}
+/* .image-text-box {
+    display: flex;        
+    align-items: center;    
+    gap: 20px;              
+    margin: 20px 0;
+}
+
+.image-text-box img {
+    width: 600px;           
+    height: auto;
+    margin-left: 16px;
+}
+
+.text-box p {
+    font-size: 24px;
+    color: #333;
+    max-width: 400px; 
+    font-weight: 700; 
+    position: absolute;
+} */
+
+/* .image-text-box {
+    display: flex;              
+    align-items: flex-start;    
+    gap: 20px;                  
+}
+
+.image-text-box img {
+    width: 200px;   
+    height: auto;
+}
+
+.text-box p {
+    font-size: 18px;
+    color: #333;
+    max-width: 400px;
+} */
+
+.image-text-box {
+    display: flex;              
+    align-items: flex-start;    /* text ko image ke top ke sath align karega */
+    gap: 20px;                  
+    margin: 20px 0;
+}
+
+.image-text-box img {
+    width: 600px;   /* 👈 yahan size increase kar do */
+    height: auto;
+}
+
+#heading-text{
+    font-size: 24px;
+    color: #333;
+    max-width: 500px;  /* text ki width control */
+    font-weight: 600;
+    line-height: 30px;
+}
+.text-box p{
+    margin-top: 10px;
+    line-height: 30px;
+}
